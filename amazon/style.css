@@ -1,0 +1,330 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+
+    background-image: url(amazon_logo._CB635397845_.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}
+
+.border{
+
+    border: 2px solid transparent;
+
+}
+
+
+.border:hover{
+    border: 2px solid white;
+
+    
+}
+
+/** box2 **/
+
+.add-first{
+
+color: #CCCCCC;
+font-size: 0.8rem;
+margin-left: 15px;
+
+}
+
+.add-second{
+
+font-size: 1rem;
+margin-left: 3px;
+
+}
+
+.add-icon{
+    display: flex;
+    align-items:center;
+
+}
+
+/**  box3 **/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+ 
+    
+}
+
+.search-select {
+
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border:none 
+}
+
+.search-input{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+     border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+
+    
+}
+
+/** box4 **/
+
+.nav-search:hover{
+
+    border: 2px solid orange;
+    
+}
+
+span{
+
+    font-size: 0.7rem;
+
+}
+
+
+.nav-second{
+
+    font-size: 1rem;
+    font-weight:700 ;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/** box5 **/
+
+.nav-cart i {
+font-size: 35px;
+
+}
+
+.nav-cart{
+
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+/** panel **/
+
+.panel{
+height: 40px;
+background-color: #222f3d;
+display: flex;
+justify-content: center;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.panel-ops p {
+
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.8rem;
+
+}
+
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/** hero section **/
+
+/* .hero-section{
+
+background-image: url(7-gifts-for-dad-on-amazon-500x750.webp);
+background-size: cover;
+height: 450px;
+width: 300px;
+
+    
+} */
+
+.hero-image{
+    background-image: url(Amazon-website2.jpg);
+    background-size: cover;
+    height: 819px;
+    width: 1500px;
+    align-items: flex-end;
+    display: flex;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+      margin-bottom: 25px;
+      text-align: center;  
+
+}
+
+
+.hero-image a {
+    color: #007185;
+}
+
+
+/** shops ection **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.box{
+    
+    height: 300px;
+    width: 22%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 0px 0px 15px ;
+    margin-top: 16px;
+}
+
+.box-img{
+    height: 200px;
+    width: 280px;
+    background-size: cover;
+    margin: 1rem;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+
+    color: red;
+}
+
+/** footer **/
+footer{
+margin-top: 15px;
+
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin: 10px;
+    color: #dddddd;
+
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+border-top: 0.5px solid white;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+      background-image: url(amazon_logo._CB635397845_.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.copyright{
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
