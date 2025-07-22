@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+
+.box {
+  height: 40px;
+  width: 40px;
+  background-color: lightblue;
+  border: 2px solid #000;
+  margin: 10px;
+}
+
+
